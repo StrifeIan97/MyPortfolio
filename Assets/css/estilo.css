@@ -620,7 +620,7 @@ ul li:nth-child(4) {
     position: fixed;
     z-index: 2;
     top: 2rem;
-    right: 25%;
+    right: 20%;
     background: lightcyan;
     border-radius: 1rem;
     color: var(--white-color);
