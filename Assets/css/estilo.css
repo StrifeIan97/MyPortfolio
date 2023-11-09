@@ -522,7 +522,7 @@ a {
 
     .texto2020{
         padding: 10rem;
-        margin-top: 60%;
+        margin-top: 90%;
     }
 
     .imgtopplanes, .top2, .topplanestext{
@@ -532,7 +532,7 @@ a {
 
     .topplanestext{
         padding: 10rem;
-        margin-top: 60%;
+        margin-top: 90%;
     }
 
     .imgappflutter, .flutter2, .filmestext{
@@ -541,7 +541,7 @@ a {
     }
 
     .filmestext{
-        margin-top: 60%;
+        margin-top: 90%;
     }
   
 
@@ -601,7 +601,7 @@ ul li:nth-child(4) {
     position: fixed;
     z-index: 2;
     top: 2rem;
-    right: 2rem;
+    right: 20%;
     background: lightcyan;
     border-radius: 1rem;
     color: var(--white-color);
@@ -638,7 +638,8 @@ ul li:nth-child(4) {
   }
 
   .gmailcont h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-left: 0;
   }
 
   .linkedincont{
