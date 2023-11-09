@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif ;
+
+}
+
+.white-bg{
+    background-color: #fff;
+    height: auto;
+}
+
+
+
+
+/* background-image: url('../img/fundoroxo.svg'); */
+
+.menu-content {
+    float: right;
+    background-color: #fff;
+    
+}
+
+nav ul li a:hover{
+    border-bottom: 0.2rem solid red;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+.containermenu{
+    align-items: center;
+    position: fixed;
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: 0.1rem solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    gap: 60rem;
+    width: 100%;
+    z-index: 2;
+
+}
+
+aside h1{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+.menu-content li {
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+    top: 0.5;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.home {
+    padding: 10rem;
+    background-image: url('../img/fundoazul.svg'); 
+    background-size: cover;
+    height: 100rem;
+    position: relative;
+}
+
+
+
+.imagem1{
+    width: 50rem;
+    display: block;
+    margin-left: auto;
+    margin-top: -6rem;
+    border: 0.2rem solid cyan;
+    position: absolute;
+    right: 7%;
+    top: 15%;
+    transition: all 300ms ease-in-out;
+}
+
+.imagem1:hover{
+    transform: scale(1.5);
+    transform: translate(0, 1%) scale(1.2) rotate(0deg);
+}
+
+.home h1 {
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.home p {
+    font-size: 250%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #fff;
+    padding: 1rem;
+    
+
+}
+
+.projetoscontainer{
+    padding: 7rem;
+    position: relative;
+}
+
+.projetoscontainer .texto2020{
+    padding: 1rem;
+    display: block;
+}
+
+.projetoscontainer .topplanestext{
+    padding: 1rem;
+    display: block;
+}
+
+.projetoscontainer .filmestext{
+    display: block;
+}
+
+
+
+.projetoscontainer p{
+    padding: 7rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 2rem;
+}
+
+.projetoscontainer h1{
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.projetoscontainer h2{
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.img2020{
+    height: 20rem;
+    transition: all 300ms ease-in-out;
+}
+
+.img2020img2{
+    height: 20rem;
+    margin-left: 5%;
+    position: absolute;
+    transition: all 300ms ease-in-out;
+}
+
+.img2020img2:hover{
+    transform: scale(1.5);
+    transform: translate(0, 1%) scale(1.2) rotate(0deg);
+}
+
+
+
+.imgtopplanes{
+    height: 20rem;
+    transition: all 300ms ease-in-out;
+
+}
+
+.top2{
+    height: 20rem;
+    margin-left: 5%;
+    position: absolute;
+    transition: all 300ms ease-in-out;
+}
+
+.top2:hover{
+    transform: scale(1.5);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.imgtopplanes:hover{
+    transform: scale(1.5);
+    transform: translate(0, 1%) scale(1.2) rotate(0deg);
+}
+
+.img2020:hover{
+    transform: scale(1.5);
+    transform: translate(0, 1%) scale(1.2) rotate(0deg);
+
+}
+
+.imgappflutter{
+    height: 25rem;
+    transition: all 300ms ease-in-out;
+}
+
+.imgappflutter:hover{
+    transform: scale(1.5);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.flutter2{
+    height: 25rem;
+    position: absolute;
+    margin-left: 5% ;
+    transition: all 300ms ease-in-out;
+}
+
+.flutter2:hover{
+    transform: scale(1.5);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.blue-bg{
+    background-image: url('../img/fundoazul.svg');
+    height: auto;
+    background-size: cover;
+   
+}
+
+.stacks{
+    display: flex;
+    padding: 3rem;
+    gap: 7rem;
+    margin-left: 3%;
+}
+.stacks2{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    align-items: center;
+    margin-left: 3%;
+}
+.JSIMG{
+    height: 17rem;
+    margin-left: 2rem;
+    transition: all 300ms ease-in-out;
+}
+
+.JSIMG:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.flutterimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.flutterimg:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.Reactimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.csharpimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.csharpimg:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.Reactimg:hover{
+    transform: scale(100);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.cssimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.cssimg:hover{
+    transform: scale(100);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.firebaseimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.firebaseimg:hover{
+    transform: scale(100);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+
+.htmlimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.htmlimg:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+
+.unityimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+
+}
+
+.unityimg:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+
+}
+
+.pythonimg{
+    height: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+.pythonimg:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.phpimg{
+    height: 20rem;
+    transition: all 300ms ease-in-out;
+}
+
+.phpimg:hover{
+    transform: scale(10);
+    transform: translate(0,1%) scale(1.2) rotate(0deg);
+}
+
+.blue-bg h1{
+    color: #fff;
+    padding: 0;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+
+}
+
+.contact-bg{
+    background-image: url('../img/dragon-scales.svg');
+    height: auto;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.contact-bg h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5rem;
+    font-size: 10rem;
+
+}
+
+.contact-bg h2{
+    color: #fff;
+}
+
+.gmailcont{
+    display: flex;
+    gap: 4rem;
+    margin-right: 35rem;
+}
+
+.gmailcont h2{
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+.gmailicon{
+    height: 8rem;
+    margin-left: 30%;
+}
+
+.linkedimg{
+    height: 10rem;
+}
+
+.linkedincont{
+    display: inline-flex;
+    align-content: center;
+    margin-left: 20%;
+}
+
+.linkedincont h2{
+    font-size: 3.5rem;
+    gap: 10rem;
+    padding: 2rem;
+}
+
+.linkedincont a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+.gitcont{
+    display: inline-flex;
+    margin-left: 21%;
+}
+
+.gitimg{
+    height: 8rem;
+}
+
+.gitcont h2{
+    padding: 2rem;
+}
+
+.gitcont a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.5rem;
+    gap: 2rem;
+    padding: 3rem;
+    margin-top: 20%;
+}
+
+.footer h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5rem;
+
+}
+
+.close-menu{
+    display: none;
+}
+
+@media(max-width: 800px){
+
+    
+
+    .home{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .home p{
+        margin-top: 30rem;
+    }
+
+    
+
+    .home h1{
+        margin-top: -5rem;
+    }
+  
+    
+   
+
+    .imagem1{
+        width: 25rem;
+        display: block;
+        margin-left: 3rem;
+        margin-top: -6rem;
+        border: 0.2rem solid cyan;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        transition: all 300ms ease-in-out;
+    }
+    
+    .imagem1:hover{
+        transform: scale(1.5);
+        transform: translate(0, 1%) scale(1.2) rotate(0deg);
+    }
+
+    .white-bg  {
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+
+    
+
+    
+
+    .img2020, .img2020img2, .texto2020{
+        padding: 3.5rem;
+        margin-left: -5rem;
+    }
+
+    .texto2020{
+        padding: 10rem;
+        margin-top: 60%;
+    }
+
+    .imgtopplanes, .top2, .topplanestext{
+        padding: 3rem;
+        margin-left: -2rem;
+    }
+
+    .topplanestext{
+        padding: 10rem;
+        margin-top: 60%;
+    }
+
+    .imgappflutter, .flutter2, .filmestext{
+        padding: 3rem;
+        margin-left: -5rem;
+    }
+
+    .filmestext{
+        margin-top: 60%;
+    }
+  
+
+
+
+    .menu{
+        bottom: 0;
+        text-align: center;
+    }
+
+    .menu-content, .menu-content ul{
+        flex-direction: column; 
+       
+   }
+
+   li a{
+    font-size: 3rem;
+   }
+
+
+  ul{
+    height: 70rem;
+    width: 40%;
+    margin-right: 50%;
+    margin-left: 30%;
+    display: flex;
+    margin-top: -350%;
+    
+  }
+
+  ul li:first-child{
+    order: 4;
+  }
+
+ul li:nth-child(2) {
+  order: 3;
+}
+ul li:nth-child(3) {
+  order: 2;
+}
+ul li:nth-child(4) {
+  order: 1;
+}
+
+  
+
+  .menu-content {
+    height: 100vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .close-menu-label::after {
+    content: '☰';
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    right: 2rem;
+    background: lightcyan;
+    border-radius: 1rem;
+    color: var(--white-color);
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+  .close-menu:checked~.menu {
+    display: block;
+  }
+
+  .close-menu:checked~.close-menu-label::after {
+    content: '×';
+    z-index: 10;
+  }
+
+  .menu-spacing {
+    display: none;
+  }
+
+  .contact-bg h1{
+    flex-direction: column;
+    font-size: 5rem;
+  }
+
+  .gmailcont{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .gmailcont h2{
+    font-size: 3rem;
+  }
+
+  .linkedincont{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .linkedincont h2 a{
+    font-size: 3rem;
+    display: block;
+  }
+
+  .gitcont{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+
+    .footer .white-bg{
+        height: 5rem;
+    }
+
+    .stacks, .stacks2{
+        display: block;
+    }
+
+    
+
+
+
+}
