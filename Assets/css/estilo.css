@@ -517,7 +517,7 @@ a {
 
     .img2020, .img2020img2, .texto2020{
         padding: 3.5rem;
-        margin-left: -5rem;
+        margin-left: -6rem;
     }
 
     .texto2020{
@@ -525,9 +525,14 @@ a {
         margin-top: 90%;
     }
 
+    .imgtopplanes, .top2{
+        flex-direction: column;
+        display: flex;
+    }
+
     .imgtopplanes, .top2, .topplanestext{
         padding: 3rem;
-        margin-left: -2rem;
+        margin-left: -9rem;
     }
 
     .topplanestext{
@@ -537,7 +542,7 @@ a {
 
     .imgappflutter, .flutter2, .filmestext{
         padding: 3rem;
-        margin-left: -5rem;
+        margin-left: -10rem;
     }
 
     .filmestext{
@@ -601,7 +606,7 @@ ul li:nth-child(4) {
     position: fixed;
     z-index: 2;
     top: 2rem;
-    right: 20%;
+    right: 30%;
     background: lightcyan;
     border-radius: 1rem;
     color: var(--white-color);
@@ -639,7 +644,7 @@ ul li:nth-child(4) {
 
   .gmailcont h2{
     font-size: 2.5rem;
-    margin-left: 0;
+    margin-left: -5rem;
   }
 
   .linkedincont{
@@ -655,6 +660,10 @@ ul li:nth-child(4) {
   .gitcont{
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .blue-bg h1{
+    font-size: 2rem;
   }
 
 
